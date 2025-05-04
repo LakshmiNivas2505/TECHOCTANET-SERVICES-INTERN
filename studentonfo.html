@@ -1,0 +1,87 @@
+#HTML:
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Information Bank Security</title>
+  <link rel="stylesheet" href="stud.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container nav-container">
+      <h1 class="logo">InfoBank Secure</h1>
+      <ul class="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Security</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>    
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <h2>Secure Student Data Management</h2>
+      <p>Advanced security for student information systems to ensure privacy and integrity.</p>
+      <button onclick="scrollToSection('features')">Learn More</button>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Security Features</h2>
+      <div class="features-grid">
+        <div class="feature-box">
+          <h3>Data Encryption</h3>
+          <p>All data is encrypted at rest and in transit using industry standards.</p>
+        </div>
+        <div class="feature-box">
+          <h3>User Authentication</h3>
+          <p>Multi-factor authentication ensures only authorized access.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Role-Based Access</h3>
+          <p>Different access levels for administrators, teachers, and students.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Audit Logs</h3>
+          <p>Every access and update is logged for full accountability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-content">
+      <h2>About Our Platform</h2>
+      <p>
+        InfoBank Secure is a cloud-based student information system designed to help schools,colleges and institutions manage sensitive student records safely.
+        We use state-of-the-art cybersecurity frameworks to ensure that student privacy is never compromised.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 InfoBank Secure. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="studen.js"></script>
+</body>
+</html>
